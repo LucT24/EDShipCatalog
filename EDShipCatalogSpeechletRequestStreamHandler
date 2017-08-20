@@ -1,0 +1,21 @@
+package EDShipCatalog; /**
+ * Created by Lucte on 8/19/2017.
+ */
+
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
+
+public class EDShipCatalogSpeechletRequestStreamHandler extends SpeechletRequestStreamHandler {
+    private static final Set<String> supportedApplicationIds;
+
+    static {
+        supportedApplicationIds = new HashSet<String>();
+    }
+
+    public EDShipCatalogSpeechletRequestStreamHandler() {
+        super(new EDSpeechlet(), supportedApplicationIds);
+    }
+}
