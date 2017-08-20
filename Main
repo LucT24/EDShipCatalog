@@ -1,0 +1,113 @@
+package EDShipCatalog;
+
+/**
+ * Created by Lucte on 8/19/2017.
+ */
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Which ship would you like to know about?");
+        String answer = scanner.nextLine();
+
+        if (answer.equals("sidewinder")) {
+            System.out.println("Sidewinders are the default ship for all starting commanders. It is a multipurpose ship, costing thirty two thousand credits with an insurance cost of sixteen hundred credits, a top speed of two hundred twenty meters per second, a boost speed of three hundred twenty one meters per second, one hundred eight armor, a hull mass of twenty five tons, a cargo capacity of two tons, and an unladen jump range of seven point five six light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("adder")) {
+            System.out.println("The Adder is a multipurpose ship, costing eighty seven thousand eight hundred eight credits with an insurance cost of four thousand three hundred ninety credits, a top speed of two hundred twenty meters per second, a boost speed of three hundred twenty one meters per second, one hundred sixty two armor, a hull mass of thirty five tons, a cargo capacity of six tons, a fuel capacity of eight tons, and an unladen jump range of nine point one two light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("anaconda")) {
+            System.out.println("The Anaconda is a multipurpose ship, costing one hundred forty six million nine hundred sixty nine thousand four hundred fifty one credits with an insurance cost of seven million three hundred forty eight thousand four hundred seventy two credits, a top speed of one hundred eighty three meters per second, a boost speed of two hundred forty four meters per second, nine hundred forty five armor, a hull mass of four hundred tons, a cargo capacity of one hundred fourteen tons, a fuel capacity of thirty two tons, and an unladen jump range of nine point four one light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("asp explorer")) {
+            System.out.println("The Asp Explorer is a multipurpose ship, costing six million six hundred sixty one thousand one hundred fifty three credits with an insurance cost of three hundred thirty three thousand fifty seven credits, a top speed of two hundred fifty four meters per second, a boost speed of three hundred forty five meters per second, three hundred seventy eight armor, a hull mass of two hundred eighty tons, a cargo capacity of thirty eight tons, a fuel capacity of thirty two tons, and an unladen jump range of thirteen point one two light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("asp scout")) {
+            System.out.println("The Asp Scout is a combat explorer ship, costing three million nine hundred sixty one thousand one hundred fifty credits with an insurance cost of one hundred ninety eight thousand fifty seven credits, a top speed of two hundred twenty three meters per second, a boost speed of three hundred four meters per second, three hundred twenty four armor, a hull mass of one hundred fifty tons, a cargo capacity of sixteen tons, a fuel capacity of sixteen tons, and an unladen jump range of eleven point five nine light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("beluga liner")) {
+            System.out.println("The Beluga is a passenger liner ship, costing eighty four million five hundred thirty two thousand seven hundred eighty credits with an insurance cost of four million two hundred twenty six thousand six hundred thirty nine credits, a top speed of one hundred ninety seven meters per second, a boost speed of two hundred seventy six meters per second, five hundred four armor, a hull mass of nine hundred fifty tons, a cargo capacity of forty four tons, a fuel capacity of one hundred twenty eight tons, and an unladen jump range of ten point six light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("cobra mark three")) {
+            System.out.println("The Cobra Mark Three is a multipurpose ship, costing three hundred seventy nine thousand seven hundred eighteen credits with an insurance cost of eighteen thousand nine hundred eighty five credits, a top speed of two hundred eighty six meters per second, a boost speed of four hundred eight meters per second, two hundred sixteen armor, a hull mass of one hundred eighty tons, a cargo capacity of eighteen tons, a fuel capacity of sixteen tons, and an unladen jump range of ten point four six light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("cobra mark four")) {
+            System.out.println("The Cobra Mark Four is a multipurpose ship, costing seven hundred sixty four thousand seven hundred twenty credits with an insurance cost of thirty eight thousand two hundred thirty six credits, a top speed of two hundred meters per second, a boost speed of two hundred ninety nine meters per second, two hundred sixteen armor, a hull mass of two hundred ten tons, a cargo capacity of thirty four tons, a fuel capacity of sixteen tons, and an unladen jump range of nine point three seven light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("diamondback explorer")) {
+            System.out.println("The Diamondback Explorer is a combat explorer ship, costing one million eight hundred ninety four thousand seven hundred sixty credits with an insurance cost of ninety four thousand seven hundred thirty eight credits, a top speed of two hundred fifty one meters per second, a boost speed of three hundred twenty eight meters per second, two hundred seventy armor, a hull mass of two hundred sixty tons, a cargo capacity of twelve tons, a fuel capacity of thirty two tons, and an unladen jump range of sixteen point nine three light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("diamondback scout")) {
+            System.out.println("The Diamondback Scout is a combat explorer ship, costing five hundred sixty four thousand three hundred twenty credits with an insurance cost of twenty eight thousand two hundred sixteen credits, a top speed of two hundred eighty six meters per second, a boost speed of three hundred eighty four meters per second, two hundred sixteen armor, a hull mass of one hundred seventy tons, a cargo capacity of zero tons, a fuel capacity of sixteen tons, and an unladen jump range of eleven point three five light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("dolphin")) {
+            System.out.println("The Dolphin is a passenger liner ship, costing one million three hundred thirty seven thousand three hundred thirty credits with an insurance cost of sixty six thousand eight hundred sixty six credits, a top speed of two hundred fifty eight meters per second, a boost speed of three hundred sixty one meters per second, one hundred ninety eight armor, a hull mass of one hundred forty tons, a cargo capacity of fourteen tons, a fuel capacity of sixteen tons, and an unladen jump range of ten point six seven light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("eagle")) {
+            System.out.println("The Eagle Mark Two is a combat ship, costing forty four thousand eight hundred credits with an insurance cost of two thousand two hundred forty credits, a top speed of two hundred thirty nine meters per second, a boost speed of three hundred forty nine meters per second, seventy two armor, a hull mass of fifty tons, a cargo capacity of two tons, a fuel capacity of four tons, and an unladen jump range of eight point four seven light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("federal assault ship")) {
+            System.out.println("The Federal Assault Ship is a combat ship, costing nineteen million eight hundred fourteen thousand two hundred ten credits with an insurance cost of nine hundred ninety thousand seven hundred ten credits, a top speed of two hundred fifteen meters per second, a boost speed of three hundred fifty eight meters per second, five hundred forty armor, a hull mass of four hundred eighty tons, a cargo capacity of thirty two tons, a fuel capacity of sixteen tons, and an unladen jump range of eight point three three light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("federal corvette")) {
+            System.out.println("The Federal Corvette is a combat ship, costing one hundred eighty seven million nine hundred sixty nine thousand four hundred fifty credits with an insurance cost of nine million three hundred ninety eight thousand four hundred seventy two credits, a top speed of one hundred ninety eight meters per second, a boost speed of two hundred fifty seven meters per second, six hundred sixty six armor, a hull mass of nine hundred tons, a cargo capacity of seventy six tons, a fuel capacity of thirty two tons, and an unladen jump range of six point three one light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("federal dropship")) {
+            System.out.println("The Federal Dropship is a multipurpose ship, costing fourteen million three hundred fourteen thousand two hundred ten credits with an insurance cost of seven hundred fifteen thousand seven hundred ten credits, a top speed of one hundred eighty two meters per second, a boost speed of three hundred four meters per second, five hundred forty armor, a hull mass of five hundred eighty tons, a cargo capacity of fifty six tons, a fuel capacity of sixteen tons, and an unladen jump range of seven point two five light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("federal gunship")) {
+            System.out.println("The Federal Gunship is a combat ship, costing thirty five million six hundred fifty eight thousand two hundred ninety seven credits with an insurance cost of one million seven hundred eighty two nine hundred fourteen credits, a top speed of one hundred seventy one meters per second, a boost speed of two hundred eighty two meters per second, six hundred thirty armor, a hull mass of five hundred eighty tons, a cargo capacity of sixteen tons, a fuel capacity of sixteen tons, and an unladen jump range of six point six six light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("fer de lance")) {
+            System.out.println("The Fer De Lance is a combat ship, costing fifty one million five hundred sixty seven thousand forty credits with an insurance cost of two million five hundred seventy eight thousand three hundred fifty two credits, a top speed of two hundred sixty five meters per second, a boost speed of three hundred fifty seven meters per second, four hundred five armor, a hull mass of two hundred fifty tons, a cargo capacity of twenty four tons, a fuel capacity of eight tons, and an unladen jump range of seven point oh four light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("hauler")) {
+            System.out.println("The Hauler is a freighter, costing fifty-two thousand seven hundred and twenty credits with an insurance cost of two thousand six hundred and thirty six credits, a top speed of two hundred meters per second, a boost speed of three hundred meters per second, one hundred eighty armor, a hull mass of fourteen tons, a cargo capacity of eight tons, a fuel capacity of four tons, and an unladen jump range of nine point one two light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("imperial clipper")) {
+            System.out.println("The Imperial Clipper is a heavy multipurpose ship, costing twenty-two million, two hundred ninety-six thousand, eight hundred and sixty credits with an insurance cost of one million, one hundred and fourteen thousand, seven hundred and ninety three credits, a top speed of three hundred meters per second, a boost speed of three hundred eighty meters per second, four hundred eighty-six armor, a hull mass of four hundred tons, a cargo capacity of seventy-four tons, a fuel capacity of sixteen tons, and an unladen jump range of eight point nine eight light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("imperial courier")) {
+            System.out.println("The Imperial Courier is a light multipurpose ship, costing two million, five hundred forty-two thousand, nine hundred and thirty credits with an insurance cost of one hundred twenty-seven thousand, one hundred and forty six credits, a top speed of two hundred eighty meters per second, a boost speed of three hundred eighty meters per second, one hundred and forty-four armor, a hull mass of thirty-five tons, a cargo capacity of twelve tons, a fuel capacity of eight tons, and an unladen jump range of seven point eight one light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("imperial cutter")) {
+            System.out.println("The Imperial Cutter is a superheavy multipurpose ship, costing two hundred eight million, nine hundred sixty-nine thousand, four hundred and seventy two credits with an insurance cost of ten million, four hundred forty-eight thousand, four hundred and seventy two credits, a top speed of two hundred meters per second, a boost speed of three hundred twenty meters per second, seven hundred and twenty armor, a hull mass of eleven hundred tons, a cargo capacity of one hundred and sixty-four tons, a fuel capacity of sixty-four tons, and an unladen jump range of eight point two one light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("imperial eagle")) {
+            System.out.println("The Imperial Eagle is a light fighter, costing one hundred ten thousand eight hundred and thirty credits with an insurance cost of five thousand five hundred and forty-one credits, a top speed of three hundred meters per second, a boost speed of four hundred meters per second, one hundred and eight armor, a hull mass of fifty tons, a cargo capacity of two tons, a fuel capacity of four tons, and an unladen jump range of eight point two two light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("keelback")) {
+            System.out.println("The Keelback is a combat freighter, costing three million, one hundred twenty-six thousand, one hundred and fifty credits with an insurance cost of one hundred fifty-six thousand, three hundred and seven credits, a top speed of two hundred meters per second, a boost speed of three hundred meters per second, four hundred and eighty-six armor, a hull mass of one hundred eighty tons, a cargo capacity of thirty-eight tons, a fuel capacity of sixteen tons, and an unladen jump range of ten point nine four light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("orca")) {
+            System.out.println("The Orca is a large cruise ship, costing forty-eight million, five hundred thirty-nine thousand, eight hundred and ninety credits with an insurance cost of two million, four hundred twenty-six thousand, nine hundred and ninety-four credits, a top speed of three hundred meters per second, a boost speed of three hundred eighty meters per second, three hundred and ninety six armor, a hull mass of two hundred ninety tons, a cargo capacity of seventy-two tons, a fuel capacity of thirty two tons, and an unladen jump range of seven point four four light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("python")) {
+            System.out.println("The Python is a heavy multipurpose ship, costing fifty-six million, nine hundred seventy-eight thousand, one hundred and eighty credits with an insurance cost of two million, eight hundred forty-eight thousand, nine hundred and nine credits, a top speed of two hundred thirty meters per second, a boost speed of three hundred meters per second, four hundred and sixty-eight armor, a hull mass of three hundred and fifty tons, a cargo capacity of eighty-two tons, a fuel capacity of thirty-two tons, and an unladen jump range of eight point two three light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("type six transporter")) {
+            System.out.println("The Type six Transporter is a freighter, costing one million, forty-five thousand, nine hundred fifty credits with an insurance cost of fifty-two thousand, two hundred and ninety seven credits, a top speed of two hundred twenty meters per second, a boost speed of three hundred and fifty meters per second, three hundred and twenty four armor, a hull mass of one hundred and fifty-five tons, a cargo capacity of fifty tons, a fuel capacity of sixteen tons, and an unladen jump range of twelve point three nine light years. It requires a medium landing pad to dock.");
+        }
+        else if (answer.equals("type seven transporter")) {
+            System.out.println("The Type seven Transporter is a freighter, costing seventeen million, four hundred seventy-two thousand, two hundred and fifty credits with an insurance cost of eight hundred seventy three thousand, six hundred and twelve credits, a top speed of one hundred eighty meters per second, a boost speed of three hundred meters per second, six hundred twelve armor, a hull mass of four hundred twenty tons, a cargo capacity of one hundred four tons, a fuel capacity of thirty-two tons, and an unladen jump range of ten point six eight light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("type nine heavy")) {
+            System.out.println("The Type nine heavy is a freighter, costing seventy-six million, five hundred fifty-five thousand, eight hundred and forty credits with an insurance cost of three million, eight hundred twenty-seven thousand, seven hundred and ninety-two credits, a top speed of one hundred thirty meters per second, a boost speed of two hundred meters per second, eight hundred and sixty-four armor, a hull mass of one thousand tons, a cargo capacity of two hundred and twenty tons, a fuel capacity of sixty four tons, and an unladen jump range of seven point seven one light years. It requires a large landing pad to dock.");
+        }
+        else if (answer.equals("viper mark three")) {
+            System.out.println("The Viper mark three is a light fighter, costing one hundred forty-two thousand, nine hundred and thirty credits with an insurance cost of seven thousand, one hundred forty-six credits, a top speed of three hundred twenty meters per second, a boost speed of four hundred meters per second, one hundred and twenty six armor, a hull mass of fifty tons, a cargo capacity of four tons, a fuel capacity of four tons, and an unladen jump range of six point nine two light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("viper mark four")) {
+            System.out.println("The Viper mark four is a light fighter, costing four hundred thirty-seven thousand, nine hundred and thirty credits with an insurance cost of twenty-one thousand, eight hundred ninety six credits, a top speed of two hundred seventy meters per second, a boost speed of three hundred forty meters per second, two hundred seventy armor, a hull mass of one hundred ninety tons, a cargo capacity of eighteen tons, a fuel capacity of sixteen tons, and an unladen jump range of ten point three six light years. It requires a small landing pad to dock.");
+        }
+        else if (answer.equals("vulture")) {
+            System.out.println("The Vulture is a heavy fighter, costing four million, nine hundred twenty-five thousand, six hundred twenty credits with an insurance cost of two hundred forty-six thousand, two hundred eighty credits, a top speed of two hundred ten meters per second, a boost speed of three hundred forty meters per second, two hundred eighty-eight armor, a hull mass of two hundred thirty tons, a cargo capacity of eight tons, a fuel capacity of eight tons, and an unladen jump range of seven point nine three light years. It requires a small landing pad to dock.");
+        }
+        else {
+            System.out.println("This is not recognized as a current Elite Dangerous ship. This can be because of your spelling, your memory, my code, or any mix of the aforementioned. Please try again.");
+        }
+
+    }
+}
